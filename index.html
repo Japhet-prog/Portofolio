@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <nav id="nav-principale">
+      <div class="nav-logo">&lt;JD/&gt;</div>
+      <ul class="nav-liens">
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#parcours">Parcours</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="hero">
+      <div class="hero-arriere-plan"></div>
+      <p class="hero-etiquette">✦ Développeur Web</p>
+      <h1 class="hero-nom">Bonjour, je suis<br /><span>Japhet</span></h1>
+      <p class="hero-phrase">
+        <span id="machine-a-ecrire"></span
+        ><span class="curseur-clignotant"></span>
+      </p>
+      <div class="hero-boutons">
+        <a href="#projets" class="bouton bouton-principal">Voir mes projets</a>
+        <a href="#contact" class="bouton bouton-contour">Me contacter</a>
+      </div>
+      <div class="indicateur-scroll">↓</div>
+    </section>
+
+    <section id="apropos" class="section">
+      <div class="a-reveler">
+        <h2 class="titre-section"><span>À propos</span></h2>
+        <div class="ligne-section"></div>
+        <div class="carte-apropos">
+          <div class="avatar-initiales">JD</div>
+          <div class="texte-apropos">
+            <p>
+              Développeur web passionné, je construis mes compétences en HTML, CSS et JavaScript à travers des
+              projets concrets et créatifs. Chaque ligne de code est pour moi une occasion d'apprendre — et de
+              transformer des idées en quelque chose de réel. Nourri par la culture japonaise et l'univers de l'anime,
+              j'apporte une sensibilité créative à chaque projet que je réalise. Curieux, autonome et en progression
+              constante, je développe des applications web qui reflètent à la fois ma rigueur technique et ma passion
+              pour la création.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="competences" class="section">
+      <div class="a-reveler">
+        <h2 class="titre-section"><span>Compétences</span></h2>
+        <div class="ligne-section"></div>
+        <div class="grille-competences">
+
+          <!-- HTML -->
+          <div class="carte-competence">
+            <div class="entete-competence">
+              <span class="nom-competence">HTML</span>
+              <span class="pourcentage-competence">90%</span>
+            </div>
+            <div class="barre-fond">
+              <div
+                class="barre-remplissage barre-violet"
+                data-largeur="90"
+              ></div>
+            </div>
+          </div>
+
+            <!-- CSS -->
+          <div class="carte-competence">
+            <div class="entete-competence">
+              <span class="nom-competence">CSS</span>
+              <span class="pourcentage-competence">85%</span>
+            </div>
+            <div class="barre-fond">
+              <div class="barre-remplissage barre-cyan" data-largeur="85"></div>
+            </div>
+          </div>
+
+          <!-- JS -->
+          <div class="carte-competence">
+            <div class="entete-competence">
+              <span class="nom-competence">JavaScript</span>
+              <span class="pourcentage-competence">80%</span>
+            </div>
+            <div class="barre-fond">
+              <div
+                class="barre-remplissage barre-jaune"
+                data-largeur="80"
+              ></div>
+            </div>
+          </div>
+
+            <!-- NodeJS -->
+          <div class="carte-competence">
+            <div class="entete-competence">
+              <span class="nom-competence">NodeJS</span>
+              <span class="pourcentage-competence">25%</span>
+            </div>
+            <div class="barre-fond">
+              <div
+                class="barre-remplissage barre-or"
+                data-largeur="25"
+              ></div>
+            </div>
+          </div>
+
+            <!-- SQL -->
+          <div class="carte-competence">
+            <div class="entete-competence">
+              <span class="nom-competence">SQL</span>
+              <span class="pourcentage-competence">50%</span>
+            </div>
+            <div class="barre-fond">
+              <div
+                class="barre-remplissage barre-indigo"
+                data-largeur="50"
+              ></div>
+            </div>
+          </div>
+
+          <!-- Python -->
+          <div class="carte-competence">
+            <div class="entete-competence">
+              <span class="nom-competence">Python</span>
+              <span class="pourcentage-competence">90%</span>
+            </div>
+            <div class="barre-fond">
+              <div
+                class="barre-remplissage barre-bleu"
+                data-largeur="90"
+              ></div>
+            </div>
+          </div>
+
+          <!-- Création de bots -->
+          <div class="carte-competence">
+            <div class="entete-competence">
+              <span class="nom-competence">Création de bots</span>
+              <span class="pourcentage-competence">50%</span>
+            </div>
+            <div class="barre-fond">
+              <div class="barre-remplissage barre-corail" data-largeur="50"></div>
+            </div>
+          </div>
+
+          <!-- Automatisation -->
+          <!-- <div class="carte-competence">
+            <div class="entete-competence">
+              <span class="nom-competence">Automatisation (n8n)</span>
+              <span class="pourcentage-competence">5%</span>
+            </div>
+            <div class="barre-fond">
+              <div class="barre-remplissage barre-aurora" data-largeur="5"></div>
+            </div>
+        </div> -->
+
+          <!-- Django -->
+          <div class="carte-competence">
+            <div class="entete-competence">
+              <span class="nom-competence">Django</span>
+              <span class="pourcentage-competence">20%</span>
+            </div>
+            <div class="barre-fond">
+              <div
+                class="barre-remplissage barre-turquoise"
+                data-largeur="20"
+              ></div>
+            </div>
+          </div>
+
+            <!-- Git -->
+          <div class="carte-competence">
+            <div class="entete-competence">
+              <span class="nom-competence">Git</span>
+              <span class="pourcentage-competence">70%</span>
+            </div>
+            <div class="barre-fond">
+              <div class="barre-remplissage barre-rose" data-largeur="70"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="parcours" class="section">
+      <div class="a-reveler">
+        <h2 class="titre-section"><span>Mon parcours</span></h2>
+        <div class="ligne-section"></div>
+        <div class="timeline">
+          <div class="etape-timeline">
+            <div class="point-timeline"></div>
+            <div class="date-timeline">Début 2024</div>
+            <div class="titre-etape">🌱 Premiers pas dans le web</div>
+            <div class="description-etape">
+              Premiers pas dans le développement web
+              Découverte du HTML & CSS en autodidacte, à travers des ressources YouTube et des plateformes comme 
+              Grafikart, freeCodeCamp et W3Schools. Le début d'un apprentissage structuré, à mon propre rythme.
+            </div>
+            <span class="etiquette-etape">HTML</span
+            ><span class="etiquette-etape">CSS</span>
+          </div>
+
+          <div class="etape-timeline">
+            <div class="point-timeline"></div>
+            <div class="date-timeline">Mi-2024</div>
+            <div class="titre-etape">⚡ Plongée dans JavaScript</div>
+            <div class="description-etape">
+              Apprentissage du JS : variables, fonctions, DOM, POO (classes,
+              héritage, getters/setters). Compréhension du fonctionnement
+              dynamique du web.
+            </div>
+            <span class="etiquette-etape">JavaScript</span
+            ><span class="etiquette-etape">POO</span
+            ><span class="etiquette-etape">DOM</span>
+          </div>
+
+          <div class="etape-timeline">
+            <div class="point-timeline"></div>
+            <div class="date-timeline">Fin 2024</div>
+            <div class="titre-etape">🎨 CSS avancé & Layout</div>
+            <div class="description-etape">
+              Maîtrise de Flexbox, CSS Grid, variables CSS, positionnement
+              (z-index, stacking context) et HTML sémantique.
+            </div>
+            <span class="etiquette-etape">Flexbox</span
+            ><span class="etiquette-etape">Grid</span
+            ><span class="etiquette-etape">CSS vars</span>
+          </div>
+
+          <div class="etape-timeline">
+            <div class="point-timeline"></div>
+            <div class="date-timeline">Début 2025</div>
+            <div class="titre-etape">
+              📱 Premier vrai projet : Anime Tracker
+            </div>
+            <div class="description-etape">
+              Création d'une application de suivi d'animes complète avec
+              localStorage, gestion des épisodes, notes, saisons.
+            </div>
+            <span class="etiquette-etape">localStorage</span>
+          </div>
+
+          <div class="etape-timeline">
+            <div class="point-timeline"></div>
+            <div class="date-timeline">Maintenant</div>
+            <div class="titre-etape">🚀 En progression continue</div>
+            <div class="description-etape">
+            Montée en compétences & projets concrets Construction de projets de plus en plus ambitieux, exploration
+            de l'IA appliquée au développement web, et création de ce portfolio — la synthèse de tout ce chemin
+            parcouru.
+            </div>
+            <span class="etiquette-etape">Projets réels</span
+            ><span class="etiquette-etape">IA appliquée</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projets" class="section">
+      <div class="a-reveler">
+        <h2 class="titre-section"><span>Projets</span></h2>
+        <div class="ligne-section"></div>
+        <div class="grille-projets">
+
+          <div class="carte-projet">
+            <div class="icone-projet">🚀</div>
+            <div class="titre-projet">Landing Page</div>
+            <div class="description-projet">
+              Page de présentation personnelle statique, conçue entièrement en HTML et CSS pur sans JavaScript.
+            </div>
+            <div class="etiquettes-projet">
+              <span class="etiquette-projet">HTML</span>
+              <span class="etiquette-projet">CSS</span>
+              <span class="etiquette-projet">Statique</span>
+            </div>
+            <div class="boutons-projet">
+              <a href="#" class="bouton-projet bouton-code">⌥ Code</a>
+            </div>
+          </div>
+
+          <div class="carte-projet">
+            <div class="icone-projet">📺</div>
+            <div class="titre-projet">Anime Tracker</div>
+            <div class="description-projet">
+              Application de suivi d'animes avec gestion des épisodes, notes et
+              saisons.
+            </div>
+            <div class="etiquettes-projet">
+              <span class="etiquette-projet">HTML</span>
+              <span class="etiquette-projet">CSS</span>
+              <span class="etiquette-projet">JS</span>
+              <span class="etiquette-projet">localStorage</span>
+            </div>
+            <div class="boutons-projet">
+              <a href="https://japhet-prog.github.io/anime-tracker/" class="bouton-projet bouton-demo">▶ Démo</a>
+              <a href="https://github.com/Japhet-prog/anime-tracker" class="bouton-projet bouton-code">⌥ Code</a>
+            </div>
+          </div>
+
+          <div class="carte-projet">
+            <div class="icone-projet">🎌</div>
+            <div class="titre-projet">Wooka <span style="font-size:0.7rem; color:var(--texte-discret); font-weight:400;">(en pause/incomplet)</span></div>
+            <div class="description-projet">
+              Site de visionnage d'anime statique. Projet d'exploration HTML & CSS pur,
+              sans JavaScript. Actuellement incomplet.
+            </div>
+            <div class="etiquettes-projet">
+              <span class="etiquette-projet">HTML</span>
+              <span class="etiquette-projet">CSS</span>
+              <span class="etiquette-projet">Statique</span>
+            </div>
+            <div class="boutons-projet">
+              <a href="https://github.com/Japhet-prog/Wooka" class="bouton-projet bouton-code">⌥ Code</a>
+            </div>
+          </div>
+
+          <div class="carte-projet">
+            <div class="icone-projet">🌐</div>
+            <div class="titre-projet">Portfolio</div>
+            <div class="description-projet">
+              Ce site ! Construit avec HTML, CSS et JS vanilla, animations et
+              timeline incluses.
+            </div>
+            <div class="etiquettes-projet">
+              <span class="etiquette-projet">HTML</span>
+              <span class="etiquette-projet">CSS</span>
+              <span class="etiquette-projet">JS</span>
+            </div>
+            <div class="boutons-projet">
+              <a href="#" class="bouton-projet bouton-code">⌥ Code</a>
+            </div>
+          </div>
+
+          <div class="carte-projet">
+            <div class="icone-projet">✅</div>
+            <div class="titre-projet">To-Do List</div>
+            <div class="description-projet">
+              Application de gestion de tâches avec ajout, suppression des données.
+            </div>
+            <div class="etiquettes-projet">
+              <span class="etiquette-projet">HTML</span>
+              <span class="etiquette-projet">CSS</span>
+              <span class="etiquette-projet">JS</span>
+            </div>
+            <div class="boutons-projet">
+              <a href="https://github.com/Japhet-prog/ToDoList" class="bouton-projet bouton-code">⌥ Code</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="a-reveler">
+        <h2 class="titre-section"><span>Contact</span></h2>
+        <div class="ligne-section"></div>
+        <div class="carte-contact">
+          <p> Tu veux collaborer, échanger ou juste dire bonjour ?<br/>N'hésite pas à me contacter ! </p>
+          <div class="liens-contact">
+            <a href="mailto:japhetdiallo734@gmail.com" class="lien-contact">✉️ Email</a>
+            <!-- <a href="#" class="lien-contact">💼 LinkedIn</a> -->
+            <a href="https://github.com/Japhet-prog" class="lien-contact" target="_blank">🐙 GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="pied-de-page">
+      <p>Fait avec passion par Japhet · 2026</p>
+    </footer>
+  </body>
+</html>
